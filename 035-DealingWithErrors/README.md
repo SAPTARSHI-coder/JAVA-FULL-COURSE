@@ -59,3 +59,9 @@ public class ErrorDemo {
 * **Takeaway 1:** Exceptions are objects in Java that represent an abnormal event.
 * **Takeaway 2:** If an exception is "thrown" and not "caught", the JVM halts execution and prints a stack trace to the console.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java relies heavily on Exceptions for error handling. C++ traditionally relies more on error codes, though it does support exceptions.**

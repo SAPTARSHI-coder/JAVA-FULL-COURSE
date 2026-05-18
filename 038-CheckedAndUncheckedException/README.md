@@ -70,3 +70,9 @@ public class UncheckedDemo {
 * **Takeaway 1:** Checked = Compiler forces you to handle it. Unchecked = Compiler ignores it.
 * **Takeaway 2:** `RuntimeException` and all of its subclasses are Unchecked. Everything else under `Exception` is Checked.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java enforces Checked Exceptions (must be caught or declared with `throws`). C++ does not have Checked Exceptions; all exceptions are unchecked.**

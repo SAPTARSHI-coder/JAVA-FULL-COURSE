@@ -78,3 +78,9 @@ public class PassObject {
 
 * **Takeaway 1:** "Pass-by-value" literally means "Pass-by-copy". 
 * **Takeaway 2:** When passing arrays, since an array is an object, modifying `array[0]` inside a method will modify the original array back in `main()`.
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java uses pass-by-value strictly (passing object references by value), whereas C++ allows pass-by-value, pass-by-reference (`&`), and pass-by-pointer (`*`).**

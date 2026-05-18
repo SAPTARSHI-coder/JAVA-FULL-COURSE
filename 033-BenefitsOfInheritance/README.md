@@ -43,3 +43,9 @@ Inheritance is a prerequisite for subtype polymorphism. Because a `Dog` IS-A `An
 * **Takeaway 1:** Inheritance minimizes duplicated code.
 * **Takeaway 2:** Just because you *can* inherit from a class doesn't mean you *should*. Ensure it genuinely passes the "IS-A" test.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **The benefits are the same, but Java enforces a single root object hierarchy (everything inherits from `Object`), whereas C++ classes do not share a common root by default.**

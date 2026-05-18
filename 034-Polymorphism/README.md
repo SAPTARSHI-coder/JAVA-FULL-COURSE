@@ -91,3 +91,9 @@ public void makeThemSpeak(Animal[] animals) {
 * **Takeaway 1:** Runtime polymorphism allows the same code to behave differently based on the actual object in memory.
 * **Takeaway 2:** Fields (variables) cannot be overridden in Java, only methods can.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java methods are virtual by default, meaning dynamic dispatch is automatic. In C++, dynamic dispatch requires explicit declaration using the `virtual` keyword.**

@@ -61,3 +61,9 @@ public class GCDemo {
 * **Takeaway 1:** Garbage Collection happens automatically on the Heap memory area.
 * **Takeaway 2:** GC prevents standard memory leaks, but it cannot prevent logical memory leaks caused by sloppy list management.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java provides automatic Garbage Collection, destroying unreachable objects. C++ requires explicit manual memory management (`delete`) or the use of smart pointers.**

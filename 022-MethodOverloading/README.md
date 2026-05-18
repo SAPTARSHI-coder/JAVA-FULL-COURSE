@@ -90,3 +90,9 @@ public class PromotionDemo {
 
 * **Takeaway 1:** Overloading increases code readability (e.g., using `Math.abs()` instead of `Math.absInt()`, `Math.absDouble()`, etc.).
 * **Takeaway 2:** Overloading happens at **compile-time**. The compiler decides exactly which method will run before the program even starts.
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Both support overloading by argument type/count. However, C++ also allows operator overloading and default arguments, whereas Java does not.**

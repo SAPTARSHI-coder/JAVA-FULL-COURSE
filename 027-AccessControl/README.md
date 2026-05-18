@@ -79,3 +79,9 @@ public class MainApp {
 * **Takeaway 1:** Always make instance variables `private` by default. This forces external code to use public getters and setters, maintaining encapsulation.
 * **Takeaway 2:** When overriding a method in a subclass, the access level cannot be made *more restrictive* than the parent method (e.g., you cannot override a `public` method and make it `protected`).
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java applies access modifiers per-member and has a `default` (package-private) level. C++ applies modifiers to blocks of members and has no concept of packages.**

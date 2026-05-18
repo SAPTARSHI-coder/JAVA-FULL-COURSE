@@ -88,3 +88,9 @@ class SportsCar implements Engine {
 * **Takeaway 1:** Abstraction focuses on the design level (interfaces/abstract classes). Encapsulation focuses on the implementation level (private fields).
 * **Takeaway 2:** A class can implement multiple interfaces, but it can only inherit from one abstract class.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java uses `abstract class` and `interface` to achieve abstraction. C++ achieves abstraction using classes with pure virtual functions (`= 0`).**

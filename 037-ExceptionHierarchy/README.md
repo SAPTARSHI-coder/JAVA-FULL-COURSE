@@ -62,3 +62,9 @@ Exceptions are problems caused by the environment, the user, or logical bugs in 
 * **Takeaway 1:** `Error` = JVM crashes. `Exception` = Application errors.
 * **Takeaway 2:** Because of inheritance, a `catch(Exception e)` block will successfully catch a `NullPointerException`, an `IOException`, and any other class that extends `Exception`.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java has a strict hierarchy with `Throwable` at the root, split into `Error` and `Exception`. C++ standard exceptions inherit from `std::exception`, but any type can be thrown.**

@@ -87,3 +87,9 @@ public class StaticMethodDemo {
 * **Takeaway 1:** `public static void main` is static because the JVM needs to run it immediately when the program starts, before any objects have been created.
 * **Takeaway 2:** Access static fields via the Class name (e.g., `Math.PI`), not via an object instance (e.g., `myMath.PI`), though the latter technically compiles with a warning.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java accesses static members via `ClassName.member`, whereas C++ uses the scope resolution operator `ClassName::member`.**

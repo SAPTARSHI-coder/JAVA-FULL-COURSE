@@ -81,3 +81,9 @@ try {
 * **Takeaway 1:** Order matters. Specific to General. Child to Parent.
 * **Takeaway 2:** You can use methods on the exception object, like `e.getMessage()` for a short description, or `e.printStackTrace()` for a detailed red text trace.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java can catch multiple exceptions in one block (`catch (A | B e)`). C++ catches sequentially and often catches by reference (`catch (const std::exception& e)`) to avoid slicing.**

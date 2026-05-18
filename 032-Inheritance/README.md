@@ -87,3 +87,9 @@ public class Manager extends Employee {
 * **Takeaway 1:** Inheritance establishes an "IS-A" relationship.
 * **Takeaway 2:** Constructors are NEVER inherited. They are *invoked* via `super()`.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java supports only single-class inheritance (using `extends`) to avoid the Diamond Problem. C++ fully supports multiple class inheritance.**

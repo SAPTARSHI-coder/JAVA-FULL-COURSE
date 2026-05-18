@@ -82,4 +82,4 @@ To declare variables, you must follow Java's strict identifier rules:
 
 ## ⚔️ Java vs C++ (Key Differences)
 
-> **Java uses the inal keyword to declare constants, whereas C++ uses const (and constexpr for compile-time constants).**
+> **Java uses the Final keyword to declare constants, whereas C++ uses const (and constexpr for compile-time constants).**

@@ -65,3 +65,9 @@ When `factorial(3)` is called:
 * **Takeaway 1:** Anything that can be solved with recursion can also be solved with a standard loop (iteration). Recursion is just cleaner for certain mathematical and tree-traversal problems.
 * **Takeaway 2:** To avoid `StackOverflowError`, always ensure the input approaches the base case with every call.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Recursion principles are identical, but C++ compilers frequently optimize tail recursion better than the JVM, which currently lacks native tail-call optimization.**

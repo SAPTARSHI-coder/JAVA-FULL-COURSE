@@ -85,3 +85,9 @@ public class TryWithResources {
 * **Takeaway 1:** A `try` block must be followed by `catch` or `finally`.
 * **Takeaway 2:** Try-With-Resources automatically closes any object that implements the `AutoCloseable` interface.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Both use `try` blocks, but Java 7 introduced try-with-resources for automatic resource management. C++ achieves this implicitly using RAII (Resource Acquisition Is Initialization).**

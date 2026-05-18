@@ -58,3 +58,9 @@ Java has a unique feature called "Checked Exceptions". The compiler forces the p
 * **Takeaway 1:** Exceptions make code cleaner and easier to read.
 * **Takeaway 2:** Exceptions allow lower-level methods to push the responsibility of error handling to higher-level methods.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Similar advantages, but C++ exceptions can throw any type (even primitive `int`s), whereas Java exceptions must inherit from `java.lang.Throwable`.**

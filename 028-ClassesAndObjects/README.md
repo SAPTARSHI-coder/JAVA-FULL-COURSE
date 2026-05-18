@@ -89,3 +89,9 @@ If you write `Car car3 = car1;`, you are NOT creating a third car. You are creat
 * **Takeaway 1:** A Class is a logical construct; an Object is a physical reality in memory.
 * **Takeaway 2:** You use the dot operator (`.`) to access an object's fields and methods.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java requires all code to reside inside classes and allocates objects exclusively on the heap (`new`). C++ allows objects to be allocated on the stack (automatic storage).**

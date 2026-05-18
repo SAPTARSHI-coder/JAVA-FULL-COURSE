@@ -95,3 +95,9 @@ public class Box {
 * **Takeaway 1:** Constructors are invoked via the `new` keyword. You cannot call a constructor explicitly on an already-existing object.
 * **Takeaway 2:** Constructors are not inherited by subclasses.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java uses `super()` to call parent constructors inside the body. C++ uses initializer lists to call parent constructors and initialize fields before the body executes.**

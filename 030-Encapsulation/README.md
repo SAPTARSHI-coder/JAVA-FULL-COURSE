@@ -89,3 +89,9 @@ public class Main {
 * **Takeaway 1:** Encapsulation = Data Hiding + Controlled Access.
 * **Takeaway 2:** A fully encapsulated class forces external objects to communicate via methods, meaning the internal implementation can safely change in the future.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Encapsulation concepts are similar, but C++ uses `friend` classes/functions to bypass encapsulation, a feature Java deliberately omitted for strict security.**

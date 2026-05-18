@@ -90,3 +90,9 @@ public class TextBuilder {
 * **Takeaway 1:** `this.field` accesses the object's instance variable, bypassing any local scope shadowing.
 * **Takeaway 2:** `this()` executes a different constructor in the same class and must be on line 1 of the block.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **In Java, `this` is an object reference (`this.field`), whereas in C++, `this` is a raw pointer (`this->field`).**
