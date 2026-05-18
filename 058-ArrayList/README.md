@@ -80,3 +80,9 @@ Alice Eve
 - `Collections.sort(list)` → sort | `Collections.reverse(list)` → reverse
 - Initial capacity: 10 (grows by 50% when full)
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java's `ArrayList` stores dynamically resizing arrays of Object references (uses wrappers like `Integer`). C++ `std::vector` stores objects contiguously in memory by value, supporting primitives directly.**

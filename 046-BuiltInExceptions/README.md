@@ -44,3 +44,9 @@ These indicate environmental or external resource failures that you *must* handl
 * **Takeaway 1:** Never catch `NullPointerException`. Fix the code that caused the object to be null!
 * **Takeaway 2:** When writing your own code, try to throw these built-in exceptions (like `IllegalArgumentException`) rather than building your own, as other Java developers already understand exactly what they mean.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java's `java.lang` and `java.util` have extensive, strictly hierarchical built-in exceptions (`NullPointerException`, `IOException`). C++ has a smaller set in `<stdexcept>` derived from `std::exception`.**

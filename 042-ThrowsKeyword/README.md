@@ -84,3 +84,9 @@ public void connectAndRead() throws IOException, SQLException {
 * **Takeaway 1:** `throws` is a warning label for methods.
 * **Takeaway 2:** It is only strictly necessary to use `throws` for Checked Exceptions, though you are legally allowed to declare Unchecked Exceptions (like `RuntimeException`) for documentation purposes.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java enforces exception specifications via `throws` for checked exceptions. C++ deprecated its dynamic exception specifications (`throw()`) in C++11 in favor of `noexcept`.**

@@ -66,3 +66,9 @@ Alice's score: 90
 - All in `java.util` package
 - `Collections` (with 's') = utility class with `sort()`, `reverse()`, `shuffle()` etc.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java has a unified Collection Framework (`java.util.Collection`). C++ has the Standard Template Library (STL) Containers, heavily utilizing generic programming and iterators.**

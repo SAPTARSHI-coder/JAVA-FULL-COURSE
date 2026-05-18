@@ -74,3 +74,9 @@ There is only **ONE** major scenario where a `finally` block will NOT execute:
 * **Takeaway 1:** The `finally` block is meant for cleanup code (closing connections).
 * **Takeaway 2:** It runs if the try succeeds, it runs if the try fails, it runs even if a return statement is triggered.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java uses `finally` blocks to guarantee execution after a `try-catch`, usually to release resources. C++ lacks `finally`, utilizing RAII (destructors) instead.**

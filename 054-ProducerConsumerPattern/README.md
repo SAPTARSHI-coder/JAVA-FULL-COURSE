@@ -63,3 +63,9 @@ Produced: 4 | Queue size: 2
 - Classic implementation uses `wait()` + `notify()` on shared object
 - Real examples: print queue, message queue, pipeline processing
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Both implement this similarly, but Java often uses built-in collections like `BlockingQueue`, whereas C++ devs often build it manually using `std::queue`, mutexes, and condition variables.**

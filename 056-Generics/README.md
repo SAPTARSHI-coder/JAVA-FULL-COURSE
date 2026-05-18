@@ -69,3 +69,9 @@ ALICE
 - `<?>` = wildcard (any type) → `List<?>` = list of unknown type
 - Generics are erased at runtime (type erasure) — all become `Object`
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java Generics use Type Erasure (type info is removed at runtime) to ensure backward compatibility. C++ Templates undergo monomorphization (generating unique compiled code for each type), resulting in faster execution but larger binaries.**

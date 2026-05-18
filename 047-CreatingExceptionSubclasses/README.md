@@ -95,3 +95,9 @@ public class BankAccount {
 * **Takeaway 1:** Custom exceptions make stack traces infinitely easier to read because the class name itself describes the exact business logic failure.
 * **Takeaway 2:** You can add custom fields to exceptions (like `shortfallAmount`) to pass valuable diagnostic data back to the `catch` block!
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **In Java, you extend `Exception` (checked) or `RuntimeException` (unchecked) and typically provide a message constructor. In C++, you usually inherit from `std::runtime_error` or `std::exception`.**

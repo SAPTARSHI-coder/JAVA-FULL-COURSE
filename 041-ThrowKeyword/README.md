@@ -69,3 +69,9 @@ public void processFile() {
 * **Takeaway 1:** `throw` is used by the programmer to manually break execution when custom validation rules fail.
 * **Takeaway 2:** Any line of code immediately following a `throw` statement in the same block is unreachable code (a compile error), because `throw` instantly terminates the block.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Both use `throw` to throw an exception, but Java requires you to throw a `Throwable` object, while C++ can `throw` primitives (like `int` or `char*`).**

@@ -47,3 +47,9 @@ If Thread A is trying to read a bank balance variable at the *exact same microse
 * **Takeaway 1:** Threads are "lightweight"; Processes are "heavyweight".
 * **Takeaway 2:** A Java application terminates when all of its non-daemon threads finish executing. The `main` thread is just the first thread; it can die, and if a background thread is still running, the application stays alive.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **The conceptual difference between processes and threads is language-agnostic, but Java has built-in multithreading (`java.lang.Thread`) from day one, while C++ only introduced standard threading (`<thread>`) in C++11.**

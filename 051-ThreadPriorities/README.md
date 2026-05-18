@@ -66,3 +66,9 @@ Java delegates thread scheduling to the underlying Operating System (Windows, ma
 * **Takeaway 2:** A newly created thread automatically inherits the priority of the thread that created it. (e.g., If the main thread is priority 8, any threads created inside `main` will start at priority 8).
 * **Takeaway 3:** Priorities are platform-dependent suggestions. They do not guarantee execution order.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java threads have priority values from 1 (`MIN_PRIORITY`) to 10 (`MAX_PRIORITY`). C++ standard thread library does not provide built-in priority management (requiring native handles).**

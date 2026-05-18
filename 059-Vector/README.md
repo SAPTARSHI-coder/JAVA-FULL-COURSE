@@ -69,3 +69,9 @@ Apple Banana Cherry
 - Legacy methods: `addElement()`, `elementAt()`, `firstElement()`, `lastElement()`
 - Modern preference: `ArrayList` (single-thread) or `Collections.synchronizedList(new ArrayList<>())` (multi-thread)
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **In Java, `Vector` is a legacy synchronized version of `ArrayList`. In C++, `std::vector` is the default, go-to non-synchronized dynamic array.**

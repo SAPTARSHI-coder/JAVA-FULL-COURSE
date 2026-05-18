@@ -112,3 +112,9 @@ public class InterruptDemo {
 * **Takeaway 1:** Prefer implementing `Runnable` over extending `Thread`.
 * **Takeaway 2:** A thread will not stop just because you call `interrupt()`. If the thread is running heavy calculation loops and never checks its interrupt status (or never goes to sleep), it will completely ignore the interruption and keep running forever.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java creates threads by extending `Thread` or implementing `Runnable`, and handles interruption via `interrupt()`. C++ passes callables to `std::thread` and introduced `std::jthread` (C++20) for cancellation.**

@@ -79,3 +79,9 @@ Null key not allowed!
 - For modern thread-safe map: use `ConcurrentHashMap` instead
 - Legacy iteration: `Enumeration` | Modern: `keySet()`, `entrySet()`
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java's `Hashtable` (legacy) and `HashMap` use a hash table for fast lookups (O(1)). The C++ equivalent is `std::unordered_map` (C++11), whereas `std::map` is typically a Red-Black Tree (O(log n)).**

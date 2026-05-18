@@ -84,3 +84,9 @@ class Child extends Parent {
 * **Takeaway 1:** The exception specification is your method's safety warning label.
 * **Takeaway 2:** Unchecked exceptions (`RuntimeExceptions`) are entirely exempt from these overriding rules. You can add them or remove them at will.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java mandates declaring checked exceptions in the method signature (`throws ExceptionName`). C++ relies heavily on `noexcept` to simply indicate if a function will *not* throw.**

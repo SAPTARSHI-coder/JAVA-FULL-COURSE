@@ -73,3 +73,9 @@ synchronized (this) {
 - `static synchronized` method = locks on the **class** object
 - **Deadlock**: two threads waiting for each other's lock forever
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java provides the `synchronized` keyword (intrinsic locks) for easy mutual exclusion. C++ explicitly uses `std::mutex` and RAII lock guards (`std::lock_guard`, `std::unique_lock`).**

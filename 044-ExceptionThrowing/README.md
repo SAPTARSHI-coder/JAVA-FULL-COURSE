@@ -65,3 +65,9 @@ public void fetchUserProfile() throws UserProfileException {
 * **Takeaway 1:** Throwing an exception is computationally expensive because the JVM has to build a stack trace. Do not use exceptions for standard control flow (like breaking out of a loop).
 * **Takeaway 2:** Always prefer throwing Unchecked Exceptions (`IllegalArgumentException`, `IllegalStateException`) for logic errors, and Checked Exceptions for external resource failures.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java unwinds the stack to find a matching `catch` block that accepts a subclass of `Throwable`. C++ stack unwinding calls destructors for local objects as it searches for a matching handler type.**

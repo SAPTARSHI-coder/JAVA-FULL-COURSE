@@ -66,3 +66,9 @@ The thread has successfully completed the execution of its `run()` method, or it
 * **Takeaway 1:** You can check the current state of any thread by calling `myThread.getState()`.
 * **Takeaway 2:** A thread in the `NEW` state is just a standard Java object. It doesn't become an actual OS-level execution thread until `start()` is invoked.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java strictly defines thread states (NEW, RUNNABLE, BLOCKED, WAITING, TIMED_WAITING, TERMINATED). C++ standard library abstracts thread states; they rely heavily on the underlying OS implementation.**

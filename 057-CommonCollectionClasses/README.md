@@ -64,3 +64,9 @@ TreeMap (sorted): {A=1, B=2, C=3}
 - Need key-value? → Map | Need sorted? → Tree variant
 - Default choices: `ArrayList`, `HashSet`, `HashMap`
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java provides `ArrayList`, `HashSet`, `HashMap`, etc., which store Object references. C++ STL provides `std::vector`, `std::set`, `std::map`, which can store objects directly by value.**
