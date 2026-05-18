@@ -76,3 +76,9 @@ Log written.
 - `PrintWriter` wraps FileWriter for easy `println()` / `printf()` support
 - `BufferedReader` + `FileReader` = the standard combo for reading text files
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java natively reads/writes 16-bit Unicode characters using `Reader` and `Writer`. C++ standard streams operate on 8-bit `char`s by default, requiring `std::wifstream` or specialized libraries for proper wide character (Unicode) handling.**

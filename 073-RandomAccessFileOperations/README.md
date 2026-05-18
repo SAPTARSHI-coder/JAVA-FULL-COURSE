@@ -56,3 +56,9 @@ Read modified at offset 8: 99
 - `seek(long pos)` moves the pointer to a specific byte index.
 - Requires a mode string: `"r"` (read-only) or `"rw"` (read-write).
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java provides the standalone `RandomAccessFile` class for arbitrary seeking and R/W operations. C++ achieves this using `std::fstream` with dual-mode flags and `seekg()`/`seekp()` pointer manipulation.**

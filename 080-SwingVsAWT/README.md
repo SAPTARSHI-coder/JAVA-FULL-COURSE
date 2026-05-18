@@ -23,3 +23,9 @@ One of the most frequently asked exam questions is comparing AWT and Swing.
 - **Lightweight**: Java manages the component (draws pixels onto a blank canvas).
 - Swing uses AWT internally for event handling and top-level containers (`JFrame` inherits from AWT's `Frame`).
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java differentiates between heavyweight OS-linked components (AWT) and lightweight painted components (Swing). C++ UI libraries handle this distinction internally depending on the specific third-party framework chosen.**

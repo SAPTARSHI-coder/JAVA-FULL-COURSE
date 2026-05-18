@@ -61,3 +61,9 @@ public class Main {
 - `Component` is the superclass of everything visible.
 - `Container` is a Component that can hold other Components.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java features a massive, built-in standard GUI framework (AWT) directly integrated into the JDK. C++ has no standard GUI library; developers must rely on third-party frameworks like Qt, wxWidgets, or ImGui.**

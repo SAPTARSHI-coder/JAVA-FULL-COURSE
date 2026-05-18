@@ -69,3 +69,9 @@ Sum: 150
 - `hasNext()`, `hasNextInt()`, `hasNextDouble()` → check before reading
 - Can read from: `System.in`, `File`, `String`
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java's `Scanner` provides rich, token-based text parsing natively. C++ typically parses standard input using `std::cin` with extraction operators (`>>`), which is fast but less feature-rich out-of-the-box for complex tokenizing.**

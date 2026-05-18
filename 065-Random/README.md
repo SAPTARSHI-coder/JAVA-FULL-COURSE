@@ -66,3 +66,9 @@ Dice roll: 4
 - `Math.random()` → double [0.0, 1.0) — quick and simple
 - `SecureRandom` → cryptographically secure (use for passwords, tokens)
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java provides `java.util.Random` and `Math.random()`. C++ provides the `<random>` header (since C++11) with highly specific engines (e.g., `std::mt19937`) and distributions, offering far more statistical control than Java.**

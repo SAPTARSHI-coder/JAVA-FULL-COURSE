@@ -61,3 +61,9 @@ Read String: Hello Binary!
 - `DataInputStream` / `DataOutputStream` handle primitive types (`readInt()`, `writeDouble()`, etc.).
 - Binary I/O is more efficient than Text I/O for numerical data (no string parsing needed).
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java provides `DataInputStream` to read platform-independent primitive types (`readInt()`, `readDouble()`). C++ uses `read()` and `write()` with raw memory blocks (`char*`), which can lead to platform-dependent endianness issues.**

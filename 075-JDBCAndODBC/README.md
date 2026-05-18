@@ -24,3 +24,9 @@ A: ODBC is platform-dependent (native C code) and not suitable for Java's "write
 **Q: What are the main components of JDBC?**  
 A: `DriverManager`, `Connection`, `Statement`, `PreparedStatement`, `ResultSet`.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java natively uses JDBC, a standard API explicitly designed to bridge Java with databases. C++ historically relied on ODBC (C-based API), lacking a built-in standard OOP database connector equivalent to JDBC.**

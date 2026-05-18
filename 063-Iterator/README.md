@@ -68,3 +68,9 @@ Reverse: Dave Charlie Alice
 - `for-each` internally uses Iterator
 - `ConcurrentModificationException` → happens when you modify collection while iterating with for-each
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java iterators explicitly point between elements, with methods like `hasNext()` and `next()`. C++ iterators act like pointers pointing directly to the element, heavily relying on pointer arithmetic and `*it`.**

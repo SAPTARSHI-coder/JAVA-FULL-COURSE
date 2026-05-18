@@ -52,3 +52,9 @@ Read: Line 2: You can format strings! Age: 25
 - Wrapping in `PrintWriter` gives you `print()`, `println()`, and `printf()`.
 - Text I/O operates on 16-bit Unicode characters.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java requires wrapping byte streams in `InputStreamReader` and `BufferedReader` for efficient text processing. C++ implicitly buffers `std::ifstream` and processes text directly via `>>` and `std::getline`.**

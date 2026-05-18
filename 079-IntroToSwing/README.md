@@ -43,3 +43,9 @@ public class Main {
 - They are **lightweight** (not dependent on OS native GUI).
 - They support **Pluggable Look and Feel** (you can make it look like Windows or Mac or custom via code).
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Swing builds a lightweight, OS-independent GUI on top of Java. C++ GUI development (e.g., using Qt) often relies on compiling directly against the host OS's native windowing system.**

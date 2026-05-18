@@ -61,3 +61,9 @@ Cleanup completed.
 - `list()` returns an array of file/folder names inside a directory.
 - `length()` returns size in bytes.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java uses `java.io.File` or the modern `java.nio.file.Files` (NIO.2) for robust file system tasks. C++ relies on the `<filesystem>` library (since C++17) to manage paths, directories, and file metadata natively.**

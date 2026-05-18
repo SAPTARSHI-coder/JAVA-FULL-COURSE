@@ -17,3 +17,9 @@ To connect Java to a specific database (like MySQL or Oracle), you need a JDBC D
 - Type 1 is obsolete and no longer included in modern Java.
 - **Type 4** is also called the "Pure Java Driver" or "Thin Driver".
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **JDBC strictly defines 4 driver types (from JDBC-ODBC bridges to Pure Java drivers). C++ database connectors are generally native C-bindings (like libpq for PostgreSQL) rather than tiered Java-like abstractions.**

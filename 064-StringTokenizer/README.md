@@ -69,3 +69,9 @@ Using split: [Alice, 25, Engineer, Mumbai]
 - Default delimiter: space, tab, newline, carriage return, form feed
 - Prefer `String.split()` in modern code (supports regex)
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java provides `StringTokenizer` (legacy) and `String.split()` (regex-based) for tokenization. C++ lacks a built-in split function, often requiring developers to use `std::stringstream`, `std::getline`, or third-party libraries.**

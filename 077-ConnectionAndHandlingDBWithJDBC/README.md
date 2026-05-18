@@ -49,3 +49,9 @@ public class Main {
 - **`executeUpdate()`**: Used for INSERT, UPDATE, DELETE (returns `int` row count).
 - `Class.forName("com.mysql.cj.jdbc.Driver")` was historically required to load the driver, but is optional in JDBC 4.0+.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java database connections are strictly managed via `Connection`, `Statement`, and `ResultSet` interfaces. C++ database querying depends entirely on the specific third-party library being used, with no standard API comparable to JDBC.**

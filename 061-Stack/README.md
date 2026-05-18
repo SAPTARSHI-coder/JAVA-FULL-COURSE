@@ -77,3 +77,9 @@ Balanced: false
 - `search()` returns 1-based position from top (-1 if not found)
 - Classic use: undo operations, expression evaluation, balanced brackets
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java has a legacy `Stack` class extending `Vector`, but modern Java recommends using `Deque`. C++ has `std::stack`, which is a container adaptor built on top of `std::deque` or `std::vector` by default.**

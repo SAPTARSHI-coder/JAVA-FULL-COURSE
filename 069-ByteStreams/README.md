@@ -68,3 +68,9 @@ Buffered read (19 bytes): Hello, Byte Stream!
 - `try-with-resources` → automatically closes streams (no finally needed)
 - `FileOutputStream(file, true)` → append mode (default overwrites)
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java requires you to explicitly use `FileInputStream` or `FileOutputStream` to handle raw 8-bit bytes. C++ uses standard file streams (`std::ifstream`) opened with the `std::ios::binary` flag.**

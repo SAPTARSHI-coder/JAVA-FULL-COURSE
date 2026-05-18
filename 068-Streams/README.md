@@ -81,3 +81,9 @@ Content: Hello, File I/O!
 - Buffered streams wrap others to improve performance
 - `System.in`, `System.out`, `System.err` are pre-opened streams
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java strictly separates I/O into Byte Streams (`InputStream`/`OutputStream`) and Character Streams (`Reader`/`Writer`). C++ unifies I/O concepts using `std::istream` and `std::ostream` for both text and binary, relying on flags.**

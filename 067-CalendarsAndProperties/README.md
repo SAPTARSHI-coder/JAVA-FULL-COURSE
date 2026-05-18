@@ -81,3 +81,9 @@ db.host=localhost
 - `Properties` extends `Hashtable<Object,Object>` — only String keys/values
 - `Properties` is used to read `.properties` config files in real apps
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java handles dates using `Calendar` (legacy) or `java.time` (modern). C++ utilizes the `<chrono>` library (since C++11) for high-precision time and date management, which operates differently from Java's object-heavy approach.**

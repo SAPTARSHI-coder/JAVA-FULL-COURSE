@@ -77,3 +77,9 @@ Iterator: Apple Banana Cherry
 - Used with: `Vector.elements()`, `Hashtable.keys()`, `Hashtable.elements()`
 - Modern code: use `Iterator` or enhanced for-each loop
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java's `Enumeration` is a legacy interface from Java 1.0 that was replaced by `Iterator`. C++ has no exact built-in equivalent for `Enumeration`, instead relying on STL Iterators from the start.**
