@@ -40,3 +40,9 @@ public class Main {
 - `JPanel` default: `FlowLayout`
 - Calling `setLayout(null)` disables layout management.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java enforces the use of Layout Managers to ensure cross-platform responsiveness. C++ GUIs also use layout managers, though absolute positioning is more common in game development or specialized C++ UI.**

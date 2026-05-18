@@ -95,3 +95,9 @@ public class GreetingApplet extends Applet {
 * **Takeaway 2:** Parameters are defined in HTML using `<param name="..." value="...">`.
 * **Takeaway 3:** `getParameter()` is used in the `init()` method and strictly returns `String` data.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java Applets pulled parameters from HTML `<param>` tags. C++ applications pull parameters strictly via `int argc, char** argv` from the command line.**

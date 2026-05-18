@@ -69,3 +69,9 @@ public class Main {
 - The `SwingUtilities.invokeLater()` is considered best practice. It ensures the GUI is created on the Event Dispatch Thread (EDT), making the UI thread-safe.
 - `frame.pack()` is a useful method that resizes the `JFrame` so that all its contents are at or above their preferred sizes.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java Swing applications run entirely within the JVM and are styled using Pluggable Look and Feels (LAFs). C++ GUI apps compile to native binaries and natively utilize the host OS's rendering engine.**

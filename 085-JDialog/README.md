@@ -49,3 +49,9 @@ public class Main {
 - `JOptionPane` is a utility class that uses `JDialog` internally to quickly show simple alerts, prompts, and confirmation boxes.
 - `dispose()` is the method used to close and destroy a dialog window.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java provides `JDialog` for modal or non-modal popup windows. C++ UI frameworks have exact equivalents (e.g., `QDialog`), relying on native OS modal loops.**

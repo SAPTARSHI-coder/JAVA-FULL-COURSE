@@ -33,3 +33,9 @@ Object (java.lang)
 - All other Swing components (buttons, labels, text fields) inherit from `JComponent`. They are lightweight.
 - `JComponent` inherits from AWT's `Container`.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java's Swing provides a deeply nested inheritance hierarchy inheriting from `JComponent`. C++ GUI libraries (like Qt) have similar hierarchies, but they are third-party, not built-in.**

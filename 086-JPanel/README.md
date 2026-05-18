@@ -46,3 +46,9 @@ public class Main {
 - By default, `JPanel` uses the `FlowLayout` manager (components line up left to right).
 - You can nest panels (put a `JPanel` inside another `JPanel`) infinitely to create complex grids and forms.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java uses `JPanel` as a lightweight invisible container to group components. C++ UI libraries have similar concepts (like Qt's `QFrame` or raw layout managers).**

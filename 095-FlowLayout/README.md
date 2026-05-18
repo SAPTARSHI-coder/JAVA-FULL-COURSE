@@ -38,3 +38,9 @@ public class Main {
 - Default alignment is `CENTER`.
 - If you resize the window during runtime, FlowLayout dynamically rearranges the components.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java's `FlowLayout` simply wraps components to the next line when space runs out. C++ frameworks offer similar flow layouts, frequently used for responsive toolbars.**

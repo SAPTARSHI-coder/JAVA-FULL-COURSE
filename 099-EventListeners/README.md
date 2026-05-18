@@ -48,3 +48,9 @@ public class Main implements ActionListener {
 ## 📝 Exam Tips
 - Because listeners are **interfaces**, if you implement `MouseListener`, you **MUST** provide a body for all 5 of its methods, even if you leave them empty. (This leads us to Adapter Classes later).
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java strictly requires implementing Listener Interfaces (e.g., `ActionListener`). C++ historically relied on function pointers, but modern C++ uses lambda expressions and signals/slots for much cleaner listening.**

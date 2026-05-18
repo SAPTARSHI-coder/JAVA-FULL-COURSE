@@ -24,3 +24,9 @@ A: An event represents a change in state or a user action on a component.
 **Q: What is the Delegation Event Model?**  
 A: A model where an Event Source generates an Event Object, and passes it to one or more registered Event Listeners to handle it.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java Events are strongly-typed objects derived from `java.util.EventObject`. C++ events are typically handled via pointers to event objects, callback functions (`std::function`), or the publisher-subscriber pattern.**

@@ -55,3 +55,9 @@ public class Main {
 - `MouseEvent` provides `getX()` and `getY()` to find exact pixel coordinates of the interaction.
 - If you implement `MouseListener`, you must override ALL 5 methods, even if you leave some empty.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java requires implementing `MouseListener` or `MouseMotionListener`. C++ frameworks usually combine these or allow overriding specific virtual methods (e.g., `mousePressEvent()`).**

@@ -37,3 +37,9 @@ public class Main extends JApplet {
 - It is a top-level container, so it has a `JRootPane` and a `contentPane`.
 - It is obsolete technology.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java Applets (now deprecated) allowed running bytecode directly in a web browser. C++ traditionally ran exclusively on the desktop, though modern technologies like WebAssembly (Wasm) now allow C++ to run in browsers.**

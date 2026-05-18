@@ -48,3 +48,9 @@ public class Main {
 - `setEditable(false)` turns it into a read-only multi-line display box.
 - Inherits from `JTextComponent` (just like `JTextField`).
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java's `JTextArea` provides multi-line text editing but requires manual wrapping in a `JScrollPane` to scroll. Many C++ UI widgets have scrolling capabilities built directly into the text area component.**

@@ -40,3 +40,9 @@ public class Main {
 - If you set rows to 0 (e.g., `GridLayout(0, 3)`), it means "any number of rows, but exactly 3 columns".
 - All cells are forced to be the exact same size, regardless of what's inside them.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java's `GridLayout` forces all components to be exactly the same size. C++ grid layouts are generally much more flexible, easily allowing column/row spanning and proportional sizing.**

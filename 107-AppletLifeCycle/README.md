@@ -92,3 +92,9 @@ public class LifeCycleDemo extends Applet {
 * **Takeaway 2:** `start()` and `stop()` can run **multiple times** as the user navigates away and returns to the page.
 * **Takeaway 3:** Standard applets are a legacy technology and are highly restricted due to security concerns.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java strictly defined the Applet lifecycle (`init()`, `start()`, `stop()`, `destroy()`). C++ desktop applications merely have a `main()` function serving as the entry and exit point.**

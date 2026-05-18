@@ -36,3 +36,9 @@ frame.add(panel);                 // Put panel inside frame
 - You *must* have at least one top-level container to display anything on the screen.
 - Every top-level container has a `contentPane`. When you call `frame.add(button)`, you are actually adding it to the `contentPane`.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java heavily relies on explicitly adding components to `Container` objects. C++ GUI frameworks use similar parenting, but often manage memory automatically when a parent container is destroyed.**

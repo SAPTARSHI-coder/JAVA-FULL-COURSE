@@ -45,3 +45,9 @@ public class Main {
 - By default, it uses `BorderLayout` (more on layouts later).
 - To add elements, use `frame.add(component)`.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java's `JFrame` represents a heavyweight native OS window wrapper. C++ UI libraries handle native window wrappers directly via system-specific API calls wrapped in classes like `QMainWindow`.**

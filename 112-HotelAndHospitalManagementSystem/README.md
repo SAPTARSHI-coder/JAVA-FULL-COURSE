@@ -71,3 +71,9 @@ You have now covered all 112 topics, from the foundational syntax of variables t
 
 **Congratulations on completing the syllabus!**
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java enterprise systems often utilize robust application servers (Spring, Java EE). C++ enterprise systems are typically built for ultra-low latency or high-performance edge computing, not standard CRUD web apps.**

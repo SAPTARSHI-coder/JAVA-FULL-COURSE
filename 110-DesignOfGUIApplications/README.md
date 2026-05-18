@@ -66,3 +66,9 @@ If the user clicks "Download", and you run the download logic directly inside th
 * **Takeaway 2:** Never hardcode pixel coordinates. Use Layout Managers so the app is responsive.
 * **Takeaway 3:** Never block the Event Dispatch Thread (EDT). Heavy work goes on background threads!
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java heavily promotes MVC (Model-View-Controller) within its Swing components. C++ GUI frameworks also promote MVC, but developers often have to implement the underlying threading and data-binding manually.**

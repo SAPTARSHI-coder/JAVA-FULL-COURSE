@@ -20,3 +20,9 @@ A: Because the source of the event delegates the processing of the event to a se
 **Q: What are the three main components of this model?**  
 A: Event Source (e.g., JButton), Event Object (e.g., ActionEvent), and Event Listener (e.g., ActionListener).
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java standardized the Delegation Event Model (events are delegated to registered listeners). C++ does not mandate a single model, supporting everything from raw OS message loops to Reactive programming.**

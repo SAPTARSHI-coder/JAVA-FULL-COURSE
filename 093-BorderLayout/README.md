@@ -46,3 +46,9 @@ public class Main {
 - East/West components stretch vertically to fill height between North and South.
 - If a region is left empty, the other regions expand to fill the void.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java's `BorderLayout` rigidly splits regions into North, South, East, West, and Center. C++ libraries have similar directional layouts, but often prefer highly flexible grid or box layouts.**

@@ -19,3 +19,9 @@ A very common exam comparison question.
 - The lack of a `main()` method in applets is the most critical programmatic difference.
 - Security restrictions (the Sandbox model) were the primary feature of applets to protect web users from malicious code.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java Applets ran in sandboxed browser environments, while Applications ran freely on the desktop. C++ applications always run directly on the OS.**

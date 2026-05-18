@@ -22,3 +22,9 @@ This occurs when the internal state of that object changes in some way.
 - The Source is responsible for registering Listeners (using methods like `addActionListener()`).
 - A Source can have multiple Listeners attached to it. When an event occurs, ALL attached listeners are notified.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **In Java, standard components act as Event Sources that generate event objects. C++ UI objects also act as sources, often emitting raw OS event loops converted to framework events.**

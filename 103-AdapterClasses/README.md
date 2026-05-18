@@ -42,3 +42,9 @@ public class Main {
 - Available for interfaces with multiple methods: `MouseAdapter`, `KeyAdapter`, `WindowAdapter`.
 - There is NO `ActionAdapter` because `ActionListener` only has ONE method anyway.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java provides Adapter classes to avoid implementing empty interface methods. C++ doesn't heavily need adapter classes since it allows multiple inheritance or uses virtual methods with default empty implementations.**

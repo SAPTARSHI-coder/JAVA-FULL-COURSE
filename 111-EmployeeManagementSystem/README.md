@@ -58,3 +58,9 @@ A good EMS demonstrates mastery of the entire syllabus:
 * **Takeaway 2:** Separation of Concerns (MVC) is critical to ensure the system is maintainable.
 * **Takeaway 3:** Use appropriate data structures (like Maps for ID lookups) to optimize performance.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **A Java EMS benefits from built-in JDBC for DB connections and Swing for cross-platform UI. A C++ EMS requires carefully selecting third-party libraries for UI, DB, and networking, but runs incredibly fast.**

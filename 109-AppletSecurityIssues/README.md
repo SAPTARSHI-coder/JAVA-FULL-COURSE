@@ -58,3 +58,9 @@ Due to these severe, recurring security issues, major browsers (Chrome, Firefox,
 * **Takeaway 2:** Sandboxed applets cannot access the local file system or connect to third-party networks.
 * **Takeaway 3:** Digitally signing an applet and getting user permission lifts the sandbox restrictions.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java Applets were heavily restricted by a strict SecurityManager. C++ executes directly on the OS with the privileges of the running user, relying on OS-level security.**

@@ -51,3 +51,9 @@ public class Main {
 - Inherits from `JTextComponent`.
 - For passwords, use `JPasswordField` instead (it hides characters with '*').
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java's `JTextField` allows single-line text editing and fires `ActionEvent`s on Enter. C++ text fields similarly fire signals upon text modification or return key presses.**

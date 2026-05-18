@@ -45,3 +45,9 @@ public class Main {
 - Can display text, an image icon, or both simultaneously.
 - Constructor can take a String: `new JButton("Submit")`.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java's `JButton` fires an `ActionEvent` when clicked. C++ buttons (e.g., `QPushButton`) fire signals, often using the powerful Signal/Slot mechanism or standard callback functions.**

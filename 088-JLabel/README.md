@@ -42,3 +42,9 @@ public class Main {
 - You can change text dynamically at runtime using `label.setText("New String")`.
 - It is a passive component (display only).
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **`JLabel` in Java is a simple display area for a short text string or image. C++ equivalents function almost identically but are managed via the respective framework's memory system.**

@@ -36,3 +36,9 @@ public void actionPerformed(ActionEvent e) {
 - `java.util.EventObject` is the root class for all events.
 - `getSource()` is the most important method—it tells you exactly which UI component triggered the event.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java explicitly defines event classes (like `MouseEvent`) for every interaction. C++ frameworks define similar event classes, but they often directly map to underlying OS-level C structs.**

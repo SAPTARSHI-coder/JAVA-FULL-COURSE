@@ -59,3 +59,9 @@ public class Main {
 - Use `JPasswordField` instead of `JTextField` for passwords.
 - Understand how to retrieve data from a component (`getText()`) inside an `ActionListener` to perform logic.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java uses anonymous inner classes or lambda expressions for event handling. C++11 introduced powerful lambdas (`[=](auto e){...}`) that can capture external variables by value or reference.**

@@ -49,3 +49,9 @@ public class Main {
 - **Registration Methods**: `addActionListener()`, `addMouseListener()`, `addKeyListener()`.
 - Modern Java heavily uses **Lambdas** for `ActionListener` because it has only one method (`actionPerformed`). You cannot use a lambda for `MouseListener` because it has 5 methods.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java couples sources and listeners via registration methods (e.g., `addActionListener()`). C++ frameworks like Qt loosely couple them via `connect(source, signal, listener, slot)`.**

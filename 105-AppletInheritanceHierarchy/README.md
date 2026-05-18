@@ -20,3 +20,9 @@ java.lang.Object
 - Because `Applet` extends `Panel`, it is a `Container` and can hold buttons, text fields, etc.
 - Because it extends `Panel` rather than `Window`, it **does not have a title bar or close button**. It relies on the browser/viewer to provide the window frame.
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java Applets inherit from `java.applet.Applet` (AWT) or `JApplet` (Swing). C++ has no native concept of a web "Applet" hierarchy, as it traditionally compiles to desktop executables.**
