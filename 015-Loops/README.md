@@ -177,3 +177,9 @@ OUTER_LOOP: for (int i = 1; i <= 3; i++) {
 | `do-while` | 1 | When the code must run at least once (e.g., Menus). |
 | `for` | 0 | When the number of iterations is known. |
 | `for-each` | 0 | Iterating through every element in an array/collection. |
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Both have similar loops, but Java enforces boolean conditions in or and while loops, whereas C++ accepts any non-zero value as true.**

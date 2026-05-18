@@ -157,3 +157,9 @@ for (int i = 1; i <= 3; i++) {
 *   **Boolean Requirement:** Unlike C++, Java `if` and `while` statements **must** receive a `boolean`. `if(1)` is a compiler error in Java.
 *   **Dangling Else:** An `else` always associates with the nearest preceding `if` that doesn't have an `else`, unless braces are used to specify otherwise.
 *   **Labels:** Labels can be placed before any statement, but they are only useful with `break` and `continue` on loops or `switch` blocks. Labels must follow Java identifier rules (cannot start with a number).
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java does not have a goto statement (it is a reserved word but unused), whereas C++ supports goto.**

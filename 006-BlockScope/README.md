@@ -85,3 +85,9 @@ public class LoopScope {
 
 * **Takeaway 1:** Variables declared inside loops, `if` statements, or simple curly braces `{}` die the moment the closing brace `}` is reached.
 * **Takeaway 2:** If you need the result of a loop or conditional block later in the method, you must declare the variable *before* opening the block.
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **In Java, you cannot shadow a local variable from an outer block in an inner block. C++ allows inner blocks to declare variables with the same name, shadowing the outer ones.**

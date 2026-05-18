@@ -189,3 +189,9 @@ switch(d) { // COMPILE ERROR
 | **Comparison** | Relational (`>`, `<`) & Logical | Equality (`==`) only |
 | **Readability** | Better for ranges | Better for multiple fixed values |
 | **Fall-through** | No | Yes (if `break` is missing) |
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java's if statement requires a strict oolean expression. C++ allows integers or pointers in if statements (where non-zero/non-null is true).**

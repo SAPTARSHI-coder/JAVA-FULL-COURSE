@@ -80,3 +80,9 @@ public class CharCast {
 
 * **Takeaway 1:** `byte a = 10; byte b = 20; byte c = (byte)(a + b);` The manual cast is required because `a + b` evaluates to an `int`.
 * **Takeaway 2:** Booleans cannot be cast to any other primitive type in Java, and no primitive type can be cast to boolean.
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java strictly checks downcasting at runtime (throwing ClassCastException), whereas C++ offers multiple cast operators (static_cast, dynamic_cast) and allows unsafe C-style casting without runtime safety.**

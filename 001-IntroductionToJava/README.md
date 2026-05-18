@@ -88,3 +88,9 @@ java Main          # The JVM translates bytecode to machine code and executes
 *   **Not 100% Object-Oriented:** Java relies on primitive data types (`int`, `char`, `boolean`), which are not objects. This is why it's technically not a *pure* object-oriented language.
 *   **Pass by Value:** Java is strictly **pass-by-value**. (When passing objects, the *reference* to the object is passed by value).
 
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java compiles to bytecode run by the JVM (Write Once, Run Anywhere), whereas C++ compiles directly to platform-specific machine code.**

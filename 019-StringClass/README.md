@@ -83,3 +83,9 @@ public class StringMethods {
 
 * **Takeaway 1:** Strings are zero-indexed, just like arrays.
 * **Takeaway 2:** Because Strings are immutable, they are inherently thread-safe and excellent to use as keys in a `HashMap`.
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java's String is immutable and stored in a String Pool for memory efficiency. C++'s std::string is mutable and usually allocated dynamically.**

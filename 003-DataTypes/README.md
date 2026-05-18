@@ -67,3 +67,9 @@ public class DataTypeExamples {
 
 * **Takeaway 1:** `int` and `double` are the standard go-to primitives for whole numbers and decimals, respectively. 
 * **Takeaway 2:** Primitive types are not objects. You cannot call methods on an `int`. (e.g., `age.toString()` will not compile). Java provides "Wrapper Classes" (like `Integer`) for when you need object behavior.
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java has strictly defined sizes for primitive types across all platforms (e.g., int is always 32-bit). In C++, the size of types like int can vary depending on the architecture.**

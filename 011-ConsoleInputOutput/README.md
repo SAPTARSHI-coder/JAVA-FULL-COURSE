@@ -77,3 +77,9 @@ public class InputDemo {
 
 * **Takeaway 1:** `System.out` and `System.in` are static members of the `java.lang.System` class.
 * **Takeaway 2:** The `Scanner` class breaks its input into tokens using whitespace (blanks, tabs, and line terminators) as the default delimiter.
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java uses System.out.println() and Scanner for standard I/O. C++ heavily utilizes stream operators std::cout << and std::cin >>.**

@@ -91,3 +91,9 @@ public class AdvancedEnumDemo {
 
 * **Takeaway 1:** Use enums when you know all possible values at compile time.
 * **Takeaway 2:** Enums implicitly extend `java.lang.Enum`, meaning they cannot extend any other class (since Java doesn't support multiple inheritance), but they *can* implement interfaces.
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java enums are full-fledged classes that can have methods, fields, and constructors. C++ enums are typically just named integer constants.**

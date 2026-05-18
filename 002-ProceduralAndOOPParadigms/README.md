@@ -90,3 +90,9 @@ public class OOPStyle {
 
 * **Takeaway 1:** Java is an inherently Object-Oriented language. While it has some procedural capabilities (like static methods), its true power lies in objects.
 * **Takeaway 2:** The four pillars of OOP (Encapsulation, Abstraction, Inheritance, Polymorphism) exist specifically to solve the scalability, reusability, and security issues found in procedural programming.
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java is strictly Object-Oriented (everything must be in a class), whereas C++ is multi-paradigm, supporting both free-floating procedural functions and OOP.**

@@ -82,3 +82,9 @@ public class Printer {
 
 * **Takeaway 1:** A method signature consists strictly of the method's name and its parameter list (types and order). It does *not* include the return type.
 * **Takeaway 2:** When a `return` statement is executed, the method instantly terminates. Any code written beneath a `return` statement in the same block is considered "unreachable code".
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java methods must be inside a class and are virtually dispatched by default. C++ functions can exist outside classes, and class methods are non-virtual by default.**

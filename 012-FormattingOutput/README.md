@@ -128,3 +128,9 @@ public class FormattingDemo {
 *   **String.format**: On the exam, you might see `String.format()` used to build a string that is then passed to `System.out.println()`. It behaves exactly like `printf`.
 *   **Width is Minimum**: If the number is larger than the width provided (e.g., printing `1000` with `%2d`), Java will **not** truncate the number. It will expand the width to fit the data.
 *   **Default Alignment**: By default, everything is **Right-Aligned**. Use the `-` flag to switch to **Left-Aligned**.
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Both support printf-style formatting, but Java provides System.out.printf() built-in, while C++ often relies on <iomanip> stream manipulators.**

@@ -88,3 +88,9 @@ System.out.println(matrix[1][2]); // Accesses row 1, column 2 -> Output: 6
 
 * **Takeaway 1:** Arrays hold primitives OR object references. If it holds objects, it actually holds pointers to those objects in memory.
 * **Takeaway 2:** When an array of objects is created (e.g., `String[] words = new String[5];`), every slot is initially `null` until you explicitly instantiate an object into it.
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java arrays are objects, inherently know their .length, and are strictly bounds-checked. C++ raw arrays decay to pointers and have no automatic bounds checking.**

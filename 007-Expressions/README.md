@@ -69,3 +69,9 @@ public class ExpressionDemo {
 
 * **Takeaway 1:** Every expression evaluates to exactly one value of a specific data type.
 * **Takeaway 2:** A method call is only an expression if it has a return type. If a method returns `void`, it cannot be used as an expression (e.g., `int x = printMessage();` is invalid).
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java explicitly evaluates expressions strictly left-to-right, while C++ evaluation order for some operators can be compiler-dependent.**

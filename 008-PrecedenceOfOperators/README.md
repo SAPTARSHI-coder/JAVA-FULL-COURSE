@@ -66,3 +66,9 @@ public class PrecedenceDemo {
 * **Takeaway 1:** Multiplication/Division/Modulo > Addition/Subtraction.
 * **Takeaway 2:** Logical AND (`&&`) > Logical OR (`||`).
 * **Takeaway 3:** When in doubt, or to ensure clear code intent, use parentheses `()`. They have the highest precedence of all.
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Operator precedence is almost identical, but Java has the >>> (unsigned right shift) operator, which C++ lacks.**

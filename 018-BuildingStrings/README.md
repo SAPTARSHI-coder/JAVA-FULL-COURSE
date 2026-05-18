@@ -74,3 +74,9 @@ public class StringBuilderDemo {
 
 * **Takeaway 1:** Use `StringBuilder` when you have to concatenate strings inside a loop.
 * **Takeaway 2:** Method chaining works perfectly with `StringBuilder` because methods like `append` return `this` (a reference to the same builder object).
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java uses StringBuilder for mutable string operations to avoid memory overhead. In C++, std::string is mutable by default, so a separate builder class isn't strictly necessary.**

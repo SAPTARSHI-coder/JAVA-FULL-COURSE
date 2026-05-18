@@ -69,3 +69,9 @@ public class ScopeExample {
 
 * **Takeaway 1:** A variable's scope is strictly defined by the curly braces `{}` in which it was declared.
 * **Takeaway 2:** To share data across multiple objects, use a `static` variable. To give each object its own data, use an instance variable. To do temporary calculations, use a local variable.
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java does not have a global scope (no global variables outside classes). C++ allows true global variables.**

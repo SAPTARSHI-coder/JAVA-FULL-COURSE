@@ -77,3 +77,9 @@ To declare variables, you must follow Java's strict identifier rules:
 
 * **Takeaway 1:** Use `final` whenever a variable represents a fixed configuration (like taxes, physics constants, URL paths). It improves code readability and safety.
 * **Takeaway 2:** Remember that Java variables are strictly typed. You cannot assign a `"String"` to an `int` variable.
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java uses the inal keyword to declare constants, whereas C++ uses const (and constexpr for compile-time constants).**

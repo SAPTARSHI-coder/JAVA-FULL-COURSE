@@ -166,3 +166,9 @@ System.out.println(count);
     *   i=2, j=2: 2*2=4 (>2). Continue ROW_LOOP (i becomes 3).
     *   i=3, j=1: 3*1=3 (>2). Continue ROW_LOOP (i loop ends).
 *   **Answer:** 3
+
+---
+
+## ⚔️ Java vs C++ (Key Differences)
+
+> **Java supports labeled reak and continue to break out of nested loops cleanly. C++ does not have labeled loops, relying on goto to escape deep nesting.**
