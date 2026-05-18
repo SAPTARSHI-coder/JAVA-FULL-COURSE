@@ -62,14 +62,3 @@ Exceptions are problems caused by the environment, the user, or logical bugs in 
 * **Takeaway 1:** `Error` = JVM crashes. `Exception` = Application errors.
 * **Takeaway 2:** Because of inheritance, a `catch(Exception e)` block will successfully catch a `NullPointerException`, an `IOException`, and any other class that extends `Exception`.
 
----
-
-## ? Java vs C++ (Key Differences)
-
-| Feature | Java | C++ |
-| :--- | :--- | :--- |
-| **Execution** | Compiled to Bytecode, runs on JVM (Platform Independent). | Compiled directly to Machine Code (Platform Dependent). |
-| **Memory Management** | Automatic Garbage Collection. No explicit pointers. | Manual memory management (
-ew/delete). Uses explicit pointers. |
-| **Multiple Inheritance**| Not supported for classes (uses Interfaces instead). | Supported for classes, which can lead to the Diamond Problem. |
-| **Object-Oriented** | Purely Object-Oriented (everything except primitives is an object). | Multi-paradigm (supports both Procedural and Object-Oriented programming). |

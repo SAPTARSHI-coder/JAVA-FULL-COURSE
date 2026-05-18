@@ -90,14 +90,3 @@ public class PromotionDemo {
 
 * **Takeaway 1:** Overloading increases code readability (e.g., using `Math.abs()` instead of `Math.absInt()`, `Math.absDouble()`, etc.).
 * **Takeaway 2:** Overloading happens at **compile-time**. The compiler decides exactly which method will run before the program even starts.
----
-
-## ? Java vs C++ (Key Differences)
-
-| Feature | Java | C++ |
-| :--- | :--- | :--- |
-| **Execution** | Compiled to Bytecode, runs on JVM (Platform Independent). | Compiled directly to Machine Code (Platform Dependent). |
-| **Memory Management** | Automatic Garbage Collection. No explicit pointers. | Manual memory management (
-ew/delete). Uses explicit pointers. |
-| **Multiple Inheritance**| Not supported for classes (uses Interfaces instead). | Supported for classes, which can lead to the Diamond Problem. |
-| **Object-Oriented** | Purely Object-Oriented (everything except primitives is an object). | Multi-paradigm (supports both Procedural and Object-Oriented programming). |

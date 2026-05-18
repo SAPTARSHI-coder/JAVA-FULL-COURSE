@@ -91,14 +91,3 @@ public class AdvancedEnumDemo {
 
 * **Takeaway 1:** Use enums when you know all possible values at compile time.
 * **Takeaway 2:** Enums implicitly extend `java.lang.Enum`, meaning they cannot extend any other class (since Java doesn't support multiple inheritance), but they *can* implement interfaces.
----
-
-## ? Java vs C++ (Key Differences)
-
-| Feature | Java | C++ |
-| :--- | :--- | :--- |
-| **Execution** | Compiled to Bytecode, runs on JVM (Platform Independent). | Compiled directly to Machine Code (Platform Dependent). |
-| **Memory Management** | Automatic Garbage Collection. No explicit pointers. | Manual memory management (
-ew/delete). Uses explicit pointers. |
-| **Multiple Inheritance**| Not supported for classes (uses Interfaces instead). | Supported for classes, which can lead to the Diamond Problem. |
-| **Object-Oriented** | Purely Object-Oriented (everything except primitives is an object). | Multi-paradigm (supports both Procedural and Object-Oriented programming). |

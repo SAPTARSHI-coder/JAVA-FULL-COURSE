@@ -65,14 +65,3 @@ public void fetchUserProfile() throws UserProfileException {
 * **Takeaway 1:** Throwing an exception is computationally expensive because the JVM has to build a stack trace. Do not use exceptions for standard control flow (like breaking out of a loop).
 * **Takeaway 2:** Always prefer throwing Unchecked Exceptions (`IllegalArgumentException`, `IllegalStateException`) for logic errors, and Checked Exceptions for external resource failures.
 
----
-
-## ? Java vs C++ (Key Differences)
-
-| Feature | Java | C++ |
-| :--- | :--- | :--- |
-| **Execution** | Compiled to Bytecode, runs on JVM (Platform Independent). | Compiled directly to Machine Code (Platform Dependent). |
-| **Memory Management** | Automatic Garbage Collection. No explicit pointers. | Manual memory management (
-ew/delete). Uses explicit pointers. |
-| **Multiple Inheritance**| Not supported for classes (uses Interfaces instead). | Supported for classes, which can lead to the Diamond Problem. |
-| **Object-Oriented** | Purely Object-Oriented (everything except primitives is an object). | Multi-paradigm (supports both Procedural and Object-Oriented programming). |

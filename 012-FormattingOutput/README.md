@@ -128,14 +128,3 @@ public class FormattingDemo {
 *   **String.format**: On the exam, you might see `String.format()` used to build a string that is then passed to `System.out.println()`. It behaves exactly like `printf`.
 *   **Width is Minimum**: If the number is larger than the width provided (e.g., printing `1000` with `%2d`), Java will **not** truncate the number. It will expand the width to fit the data.
 *   **Default Alignment**: By default, everything is **Right-Aligned**. Use the `-` flag to switch to **Left-Aligned**.
----
-
-## ? Java vs C++ (Key Differences)
-
-| Feature | Java | C++ |
-| :--- | :--- | :--- |
-| **Execution** | Compiled to Bytecode, runs on JVM (Platform Independent). | Compiled directly to Machine Code (Platform Dependent). |
-| **Memory Management** | Automatic Garbage Collection. No explicit pointers. | Manual memory management (
-ew/delete). Uses explicit pointers. |
-| **Multiple Inheritance**| Not supported for classes (uses Interfaces instead). | Supported for classes, which can lead to the Diamond Problem. |
-| **Object-Oriented** | Purely Object-Oriented (everything except primitives is an object). | Multi-paradigm (supports both Procedural and Object-Oriented programming). |

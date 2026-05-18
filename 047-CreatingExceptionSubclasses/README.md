@@ -95,14 +95,3 @@ public class BankAccount {
 * **Takeaway 1:** Custom exceptions make stack traces infinitely easier to read because the class name itself describes the exact business logic failure.
 * **Takeaway 2:** You can add custom fields to exceptions (like `shortfallAmount`) to pass valuable diagnostic data back to the `catch` block!
 
----
-
-## ? Java vs C++ (Key Differences)
-
-| Feature | Java | C++ |
-| :--- | :--- | :--- |
-| **Execution** | Compiled to Bytecode, runs on JVM (Platform Independent). | Compiled directly to Machine Code (Platform Dependent). |
-| **Memory Management** | Automatic Garbage Collection. No explicit pointers. | Manual memory management (
-ew/delete). Uses explicit pointers. |
-| **Multiple Inheritance**| Not supported for classes (uses Interfaces instead). | Supported for classes, which can lead to the Diamond Problem. |
-| **Object-Oriented** | Purely Object-Oriented (everything except primitives is an object). | Multi-paradigm (supports both Procedural and Object-Oriented programming). |

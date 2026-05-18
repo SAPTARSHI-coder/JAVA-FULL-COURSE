@@ -77,13 +77,3 @@ public class InputDemo {
 
 * **Takeaway 1:** `System.out` and `System.in` are static members of the `java.lang.System` class.
 * **Takeaway 2:** The `Scanner` class breaks its input into tokens using whitespace (blanks, tabs, and line terminators) as the default delimiter.
----
-
-## ? Java vs C++ (Key Differences)
-
-| Feature | Java | C++ |
-| :--- | :--- | :--- |
-| **Execution** | Compiled to Bytecode, runs on JVM (Platform Independent). | Compiled directly to Machine Code (Platform Dependent). |
-| **Memory Management** | Automatic Garbage Collection. No explicit pointers. | Manual memory management (New/delete). Uses explicit pointers. |
-| **Multiple Inheritance**| Not supported for classes (uses Interfaces instead). | Supported for classes, which can lead to the Diamond Problem. |
-| **Object-Oriented** | Purely Object-Oriented (everything except primitives is an object). | Multi-paradigm (supports both Procedural and Object-Oriented programming). |

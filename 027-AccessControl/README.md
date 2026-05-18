@@ -79,14 +79,3 @@ public class MainApp {
 * **Takeaway 1:** Always make instance variables `private` by default. This forces external code to use public getters and setters, maintaining encapsulation.
 * **Takeaway 2:** When overriding a method in a subclass, the access level cannot be made *more restrictive* than the parent method (e.g., you cannot override a `public` method and make it `protected`).
 
----
-
-## ? Java vs C++ (Key Differences)
-
-| Feature | Java | C++ |
-| :--- | :--- | :--- |
-| **Execution** | Compiled to Bytecode, runs on JVM (Platform Independent). | Compiled directly to Machine Code (Platform Dependent). |
-| **Memory Management** | Automatic Garbage Collection. No explicit pointers. | Manual memory management (
-ew/delete). Uses explicit pointers. |
-| **Multiple Inheritance**| Not supported for classes (uses Interfaces instead). | Supported for classes, which can lead to the Diamond Problem. |
-| **Object-Oriented** | Purely Object-Oriented (everything except primitives is an object). | Multi-paradigm (supports both Procedural and Object-Oriented programming). |

@@ -87,14 +87,3 @@ public class StaticMethodDemo {
 * **Takeaway 1:** `public static void main` is static because the JVM needs to run it immediately when the program starts, before any objects have been created.
 * **Takeaway 2:** Access static fields via the Class name (e.g., `Math.PI`), not via an object instance (e.g., `myMath.PI`), though the latter technically compiles with a warning.
 
----
-
-## ? Java vs C++ (Key Differences)
-
-| Feature | Java | C++ |
-| :--- | :--- | :--- |
-| **Execution** | Compiled to Bytecode, runs on JVM (Platform Independent). | Compiled directly to Machine Code (Platform Dependent). |
-| **Memory Management** | Automatic Garbage Collection. No explicit pointers. | Manual memory management (
-ew/delete). Uses explicit pointers. |
-| **Multiple Inheritance**| Not supported for classes (uses Interfaces instead). | Supported for classes, which can lead to the Diamond Problem. |
-| **Object-Oriented** | Purely Object-Oriented (everything except primitives is an object). | Multi-paradigm (supports both Procedural and Object-Oriented programming). |

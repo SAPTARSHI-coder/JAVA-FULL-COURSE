@@ -80,14 +80,3 @@ public class CharCast {
 
 * **Takeaway 1:** `byte a = 10; byte b = 20; byte c = (byte)(a + b);` The manual cast is required because `a + b` evaluates to an `int`.
 * **Takeaway 2:** Booleans cannot be cast to any other primitive type in Java, and no primitive type can be cast to boolean.
----
-
-## ? Java vs C++ (Key Differences)
-
-| Feature | Java | C++ |
-| :--- | :--- | :--- |
-| **Execution** | Compiled to Bytecode, runs on JVM (Platform Independent). | Compiled directly to Machine Code (Platform Dependent). |
-| **Memory Management** | Automatic Garbage Collection. No explicit pointers. | Manual memory management (
-ew/delete). Uses explicit pointers. |
-| **Multiple Inheritance**| Not supported for classes (uses Interfaces instead). | Supported for classes, which can lead to the Diamond Problem. |
-| **Object-Oriented** | Purely Object-Oriented (everything except primitives is an object). | Multi-paradigm (supports both Procedural and Object-Oriented programming). |

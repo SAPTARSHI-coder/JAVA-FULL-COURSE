@@ -77,14 +77,3 @@ To declare variables, you must follow Java's strict identifier rules:
 
 * **Takeaway 1:** Use `final` whenever a variable represents a fixed configuration (like taxes, physics constants, URL paths). It improves code readability and safety.
 * **Takeaway 2:** Remember that Java variables are strictly typed. You cannot assign a `"String"` to an `int` variable.
----
-
-## ? Java vs C++ (Key Differences)
-
-| Feature | Java | C++ |
-| :--- | :--- | :--- |
-| **Execution** | Compiled to Bytecode, runs on JVM (Platform Independent). | Compiled directly to Machine Code (Platform Dependent). |
-| **Memory Management** | Automatic Garbage Collection. No explicit pointers. | Manual memory management (
-ew/delete). Uses explicit pointers. |
-| **Multiple Inheritance**| Not supported for classes (uses Interfaces instead). | Supported for classes, which can lead to the Diamond Problem. |
-| **Object-Oriented** | Purely Object-Oriented (everything except primitives is an object). | Multi-paradigm (supports both Procedural and Object-Oriented programming). |

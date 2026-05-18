@@ -66,14 +66,3 @@ Java delegates thread scheduling to the underlying Operating System (Windows, ma
 * **Takeaway 2:** A newly created thread automatically inherits the priority of the thread that created it. (e.g., If the main thread is priority 8, any threads created inside `main` will start at priority 8).
 * **Takeaway 3:** Priorities are platform-dependent suggestions. They do not guarantee execution order.
 
----
-
-## ? Java vs C++ (Key Differences)
-
-| Feature | Java | C++ |
-| :--- | :--- | :--- |
-| **Execution** | Compiled to Bytecode, runs on JVM (Platform Independent). | Compiled directly to Machine Code (Platform Dependent). |
-| **Memory Management** | Automatic Garbage Collection. No explicit pointers. | Manual memory management (
-ew/delete). Uses explicit pointers. |
-| **Multiple Inheritance**| Not supported for classes (uses Interfaces instead). | Supported for classes, which can lead to the Diamond Problem. |
-| **Object-Oriented** | Purely Object-Oriented (everything except primitives is an object). | Multi-paradigm (supports both Procedural and Object-Oriented programming). |

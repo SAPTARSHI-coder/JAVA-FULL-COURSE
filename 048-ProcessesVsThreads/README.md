@@ -47,14 +47,3 @@ If Thread A is trying to read a bank balance variable at the *exact same microse
 * **Takeaway 1:** Threads are "lightweight"; Processes are "heavyweight".
 * **Takeaway 2:** A Java application terminates when all of its non-daemon threads finish executing. The `main` thread is just the first thread; it can die, and if a background thread is still running, the application stays alive.
 
----
-
-## ? Java vs C++ (Key Differences)
-
-| Feature | Java | C++ |
-| :--- | :--- | :--- |
-| **Execution** | Compiled to Bytecode, runs on JVM (Platform Independent). | Compiled directly to Machine Code (Platform Dependent). |
-| **Memory Management** | Automatic Garbage Collection. No explicit pointers. | Manual memory management (
-ew/delete). Uses explicit pointers. |
-| **Multiple Inheritance**| Not supported for classes (uses Interfaces instead). | Supported for classes, which can lead to the Diamond Problem. |
-| **Object-Oriented** | Purely Object-Oriented (everything except primitives is an object). | Multi-paradigm (supports both Procedural and Object-Oriented programming). |

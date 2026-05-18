@@ -69,14 +69,3 @@ public class ScopeExample {
 
 * **Takeaway 1:** A variable's scope is strictly defined by the curly braces `{}` in which it was declared.
 * **Takeaway 2:** To share data across multiple objects, use a `static` variable. To give each object its own data, use an instance variable. To do temporary calculations, use a local variable.
----
-
-## ? Java vs C++ (Key Differences)
-
-| Feature | Java | C++ |
-| :--- | :--- | :--- |
-| **Execution** | Compiled to Bytecode, runs on JVM (Platform Independent). | Compiled directly to Machine Code (Platform Dependent). |
-| **Memory Management** | Automatic Garbage Collection. No explicit pointers. | Manual memory management (
-ew/delete). Uses explicit pointers. |
-| **Multiple Inheritance**| Not supported for classes (uses Interfaces instead). | Supported for classes, which can lead to the Diamond Problem. |
-| **Object-Oriented** | Purely Object-Oriented (everything except primitives is an object). | Multi-paradigm (supports both Procedural and Object-Oriented programming). |

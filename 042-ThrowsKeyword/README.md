@@ -84,14 +84,3 @@ public void connectAndRead() throws IOException, SQLException {
 * **Takeaway 1:** `throws` is a warning label for methods.
 * **Takeaway 2:** It is only strictly necessary to use `throws` for Checked Exceptions, though you are legally allowed to declare Unchecked Exceptions (like `RuntimeException`) for documentation purposes.
 
----
-
-## ? Java vs C++ (Key Differences)
-
-| Feature | Java | C++ |
-| :--- | :--- | :--- |
-| **Execution** | Compiled to Bytecode, runs on JVM (Platform Independent). | Compiled directly to Machine Code (Platform Dependent). |
-| **Memory Management** | Automatic Garbage Collection. No explicit pointers. | Manual memory management (
-ew/delete). Uses explicit pointers. |
-| **Multiple Inheritance**| Not supported for classes (uses Interfaces instead). | Supported for classes, which can lead to the Diamond Problem. |
-| **Object-Oriented** | Purely Object-Oriented (everything except primitives is an object). | Multi-paradigm (supports both Procedural and Object-Oriented programming). |
