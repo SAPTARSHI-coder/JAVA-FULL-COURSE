@@ -4,6 +4,13 @@
   <p><em>The ultimate, exam-aligned academic repository for mastering Core Java, from fundamental syntax to GUI development.</em></p>
 </div>
 
+<p align="center">
+  <a href="https://www.oracle.com/java/"><img src="https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 17+" /></a>
+  <a href="#%EF%B8%8F-course-syllabus-112-topics"><img src="https://img.shields.io/badge/Curriculum-112%20Topics-007396?style=for-the-badge&logo=java&logoColor=white" alt="112 Topics" /></a>
+  <img src="https://img.shields.io/badge/Exam%20%26%20Viva-Ready-brightgreen?style=for-the-badge" alt="Exam Ready" />
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License" />
+</p>
+
 <hr/>
 
 ## 🌟 Repository Overview
@@ -24,138 +31,138 @@ Every topic folder (numbered 001 to 112) contains a single, comprehensive `READM
 Follow the numbering strictly for the optimal learning path. It progresses logically from the absolute basics up to complete Java UI applications.
 
 ### 🌱 Phase 1 — Java Fundamentals (Absolute Beginner)
-- 001-IntroductionToJava
-- 002-ProceduralAndOOPParadigms
-- 003-DataTypes
-- 004-VariablesAndConstants
-- 005-ScopeAndLifetimeOfVariables
-- 006-BlockScope
-- 007-Expressions
-- 008-PrecedenceOfOperators
-- 009-TypeCasting
-- 010-EnumeratedTypes
-- 011-ConsoleInputOutput
-- 012-FormattingOutput
-- 013-ControlFlow
-- 014-ConditionalStatements
-- 015-Loops
-- 016-BreakAndContinue
-- 017-Arrays
-- 018-BuildingStrings
-- 019-StringClass
+- [001-IntroductionToJava](./001-IntroductionToJava)
+- [002-ProceduralAndOOPParadigms](./002-ProceduralAndOOPParadigms)
+- [003-DataTypes](./003-DataTypes)
+- [004-VariablesAndConstants](./004-VariablesAndConstants)
+- [005-ScopeAndLifetimeOfVariables](./005-ScopeAndLifetimeOfVariables)
+- [006-BlockScope](./006-BlockScope)
+- [007-Expressions](./007-Expressions)
+- [008-PrecedenceOfOperators](./008-PrecedenceOfOperators)
+- [009-TypeCasting](./009-TypeCasting)
+- [010-EnumeratedTypes](./010-EnumeratedTypes)
+- [011-ConsoleInputOutput](./011-ConsoleInputOutput)
+- [012-FormattingOutput](./012-FormattingOutput)
+- [013-ControlFlow](./013-ControlFlow)
+- [014-ConditionalStatements](./014-ConditionalStatements)
+- [015-Loops](./015-Loops)
+- [016-BreakAndContinue](./016-BreakAndContinue)
+- [017-Arrays](./017-Arrays)
+- [018-BuildingStrings](./018-BuildingStrings)
+- [019-StringClass](./019-StringClass)
 
 ### ⚙️ Phase 2 — Methods & Memory Concepts
-- 020-Methods
-- 021-ParameterPassing
-- 022-MethodOverloading
-- 023-Recursion
-- 024-StaticFieldsAndMethods
-- 025-GarbageCollection
-- 026-ThisReference
-- 027-AccessControl
+- [020-Methods](./020-Methods)
+- [021-ParameterPassing](./021-ParameterPassing)
+- [022-MethodOverloading](./022-MethodOverloading)
+- [023-Recursion](./023-Recursion)
+- [024-StaticFieldsAndMethods](./024-StaticFieldsAndMethods)
+- [025-GarbageCollection](./025-GarbageCollection)
+- [026-ThisReference](./026-ThisReference)
+- [027-AccessControl](./027-AccessControl)
 
 ### 🧱 Phase 3 — Core OOP Pillars
-- 028-ClassesAndObjects
-- 029-Constructors
-- 030-Encapsulation
-- 031-DataAbstraction
-- 032-Inheritance
-- 033-BenefitsOfInheritance
-- 034-Polymorphism
+- [028-ClassesAndObjects](./028-ClassesAndObjects)
+- [029-Constructors](./029-Constructors)
+- [030-Encapsulation](./030-Encapsulation)
+- [031-DataAbstraction](./031-DataAbstraction)
+- [032-Inheritance](./032-Inheritance)
+- [033-BenefitsOfInheritance](./033-BenefitsOfInheritance)
+- [034-Polymorphism](./034-Polymorphism)
 
 ### 🚨 Phase 4 — Exception Handling
-- 035-DealingWithErrors
-- 036-AdvantagesOfExceptionHandling
-- 037-ExceptionHierarchy
-- 038-CheckedAndUncheckedException
-- 039-TryBlock
-- 040-CatchBlock
-- 041-ThrowKeyword
-- 042-ThrowsKeyword
-- 043-FinallyBlock
-- 044-ExceptionThrowing
-- 045-ExceptionSpecification
-- 046-BuiltInExceptions
-- 047-CreatingExceptionSubclasses
+- [035-DealingWithErrors](./035-DealingWithErrors)
+- [036-AdvantagesOfExceptionHandling](./036-AdvantagesOfExceptionHandling)
+- [037-ExceptionHierarchy](./037-ExceptionHierarchy)
+- [038-CheckedAndUncheckedException](./038-CheckedAndUncheckedException)
+- [039-TryBlock](./039-TryBlock)
+- [040-CatchBlock](./040-CatchBlock)
+- [041-ThrowKeyword](./041-ThrowKeyword)
+- [042-ThrowsKeyword](./042-ThrowsKeyword)
+- [043-FinallyBlock](./043-FinallyBlock)
+- [044-ExceptionThrowing](./044-ExceptionThrowing)
+- [045-ExceptionSpecification](./045-ExceptionSpecification)
+- [046-BuiltInExceptions](./046-BuiltInExceptions)
+- [047-CreatingExceptionSubclasses](./047-CreatingExceptionSubclasses)
 
 ### 🧵 Phase 5 — Multithreading
-- 048-ProcessesVsThreads
-- 049-ThreadStates
-- 050-CreatingAndInterruptingThreads
-- 051-ThreadPriorities
-- 052-SynchronizingThreads
-- 053-InterThreadCommunication
-- 054-ProducerConsumerPattern
+- [048-ProcessesVsThreads](./048-ProcessesVsThreads)
+- [049-ThreadStates](./049-ThreadStates)
+- [050-CreatingAndInterruptingThreads](./050-CreatingAndInterruptingThreads)
+- [051-ThreadPriorities](./051-ThreadPriorities)
+- [052-SynchronizingThreads](./052-SynchronizingThreads)
+- [053-InterThreadCommunication](./053-InterThreadCommunication)
+- [054-ProducerConsumerPattern](./054-ProducerConsumerPattern)
 
 ### 📚 Phase 6 — Collections & Utilities
-- 055-IntroToCollectionFramework
-- 056-Generics
-- 057-CommonCollectionClasses
-- 058-ArrayList
-- 059-Vector
-- 060-HashTable
-- 061-Stack
-- 062-Enumeration
-- 063-Iterator
-- 064-StringTokenizer
-- 065-Random
-- 066-Scanner
-- 067-CalendarsAndProperties
+- [055-IntroToCollectionFramework](./055-IntroToCollectionFramework)
+- [056-Generics](./056-Generics)
+- [057-CommonCollectionClasses](./057-CommonCollectionClasses)
+- [058-ArrayList](./058-ArrayList)
+- [059-Vector](./059-Vector)
+- [060-HashTable](./060-HashTable)
+- [061-Stack](./061-Stack)
+- [062-Enumeration](./062-Enumeration)
+- [063-Iterator](./063-Iterator)
+- [064-StringTokenizer](./064-StringTokenizer)
+- [065-Random](./065-Random)
+- [066-Scanner](./066-Scanner)
+- [067-CalendarsAndProperties](./067-CalendarsAndProperties)
 
 ### 📁 Phase 7 — File Handling & Streams
-- 068-Streams
-- 069-ByteStreams
-- 070-CharacterStreams
-- 071-TextInputOutput
-- 072-BinaryInputOutput
-- 073-RandomAccessFileOperations
-- 074-FileManagement
+- [068-Streams](./068-Streams)
+- [069-ByteStreams](./069-ByteStreams)
+- [070-CharacterStreams](./070-CharacterStreams)
+- [071-TextInputOutput](./071-TextInputOutput)
+- [072-BinaryInputOutput](./072-BinaryInputOutput)
+- [073-RandomAccessFileOperations](./073-RandomAccessFileOperations)
+- [074-FileManagement](./074-FileManagement)
 
 ### 🗄️ Phase 8 — Database Connectivity (JDBC)
-- 075-JDBCAndODBC
-- 076-DriverTypes1to4
-- 077-ConnectionAndHandlingDBWithJDBC
+- [075-JDBCAndODBC](./075-JDBCAndODBC)
+- [076-DriverTypes1to4](./076-DriverTypes1to4)
+- [077-ConnectionAndHandlingDBWithJDBC](./077-ConnectionAndHandlingDBWithJDBC)
 
 ### 🖼️ Phase 9 — GUI Programming (AWT & Swing)
-- 078-AWTClassHierarchy
-- 079-IntroToSwing
-- 080-SwingVsAWT
-- 081-HierarchyOfSwingComponents
-- 082-Containers
-- 083-JFrame
-- 084-JApplet
-- 085-JDialog
-- 086-JPanel
-- 087-JButton
-- 088-JLabel
-- 089-JTextField
-- 090-JTextArea
-- 091-SwingApplications
-- 092-LayoutManagement
-- 093-BorderLayout
-- 094-GridLayout
-- 095-FlowLayout
+- [078-AWTClassHierarchy](./078-AWTClassHierarchy)
+- [079-IntroToSwing](./079-IntroToSwing)
+- [080-SwingVsAWT](./080-SwingVsAWT)
+- [081-HierarchyOfSwingComponents](./081-HierarchyOfSwingComponents)
+- [082-Containers](./082-Containers)
+- [083-JFrame](./083-JFrame)
+- [084-JApplet](./084-JApplet)
+- [085-JDialog](./085-JDialog)
+- [086-JPanel](./086-JPanel)
+- [087-JButton](./087-JButton)
+- [088-JLabel](./088-JLabel)
+- [089-JTextField](./089-JTextField)
+- [090-JTextArea](./090-JTextArea)
+- [091-SwingApplications](./091-SwingApplications)
+- [092-LayoutManagement](./092-LayoutManagement)
+- [093-BorderLayout](./093-BorderLayout)
+- [094-GridLayout](./094-GridLayout)
+- [095-FlowLayout](./095-FlowLayout)
 
 ### 🖱️ Phase 10 — Event Handling
-- 096-Events
-- 097-EventSources
-- 098-EventClasses
-- 099-EventListeners
-- 100-EventSourcesAndListeners
-- 101-DelegationEventModel
-- 102-HandlingMouseEvents
-- 103-AdapterClasses
-- 104-EventHandlingExamples
+- [096-Events](./096-Events)
+- [097-EventSources](./097-EventSources)
+- [098-EventClasses](./098-EventClasses)
+- [099-EventListeners](./099-EventListeners)
+- [100-EventSourcesAndListeners](./100-EventSourcesAndListeners)
+- [101-DelegationEventModel](./101-DelegationEventModel)
+- [102-HandlingMouseEvents](./102-HandlingMouseEvents)
+- [103-AdapterClasses](./103-AdapterClasses)
+- [104-EventHandlingExamples](./104-EventHandlingExamples)
 
 ### 🚀 Phase 11 — Advanced & Final Projects
-- 105-AppletInheritanceHierarchy
-- 106-AppletsVsApplications
-- 107-AppletLifeCycle
-- 108-PassingParametersToApplets
-- 109-AppletSecurityIssues
-- 110-DesignOfGUIApplications
-- 111-EmployeeManagementSystem
-- 112-HotelAndHospitalManagementSystem
+- [105-AppletInheritanceHierarchy](./105-AppletInheritanceHierarchy)
+- [106-AppletsVsApplications](./106-AppletsVsApplications)
+- [107-AppletLifeCycle](./107-AppletLifeCycle)
+- [108-PassingParametersToApplets](./108-PassingParametersToApplets)
+- [109-AppletSecurityIssues](./109-AppletSecurityIssues)
+- [110-DesignOfGUIApplications](./110-DesignOfGUIApplications)
+- [111-EmployeeManagementSystem](./111-EmployeeManagementSystem)
+- [112-HotelAndHospitalManagementSystem](./112-HotelAndHospitalManagementSystem)
 
 ---
 
@@ -169,3 +176,12 @@ Follow the numbering strictly for the optimal learning path. It progresses logic
 <div align="center">
   <i>"Write once, run anywhere." — James Gosling</i>
 </div>
+
+---
+
+## 👨‍💻 Author
+
+**Saptarshi Sadhu**
+- Website: [saptarshisadhu.co.in](https://saptarshisadhu.co.in/)
+- GitHub: [@SAPTARSHI-coder](https://github.com/SAPTARSHI-coder)
+- LinkedIn: [in/saptarshi-sadhu](https://www.linkedin.com/in/saptarshi-sadhu/)
